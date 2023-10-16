@@ -1,21 +1,21 @@
 # Robot-Comp
 Code used for low level processing for the Inderdisciplinary Robot Competion
 
-#Main Components :
-    - Arduino -> low level processing unit
-    - Raspberry Pi -> high level processing unit
-    - Maxon motors -> high precision motors for differential drive locomotion 
-    - Polulu motors -> motors for turning front brushes
-    - Servo motor -> for duplo brick unloading
-    - Servo driver -> Adafruit 16-Channel 12-bit PWM/Servo Driver (controlled by Arduino via I2C)
-    - Ultrasonic distance senors -> for distance measuring
-    - LEDs -> WS2812B Addressable RGB LED Strip with 32 LEDs used for esthetic as well as debugging purposes
-        Center LEDs (14 to 17) used to indicate battery level
-        Left and right LEDs (0-9 and 22-31) used to indicate if obstacle detected on left or right side (display in pink)
-            Left and right LEDs also used to indicate other modes (turquoise for unloading, yellow for pressing button, 
-                red for maneuver due to too high Maxon motor current, blue for maneuver if get stuck too long in a corner)
+# Main Components :
+- Arduino -> low level processing unit
+- Raspberry Pi -> high level processing unit
+- Maxon motors -> high precision motors for differential drive locomotion 
+- Polulu motors -> motors for turning front brushes
+- Servo motor -> for duplo brick unloading
+- Servo driver -> Adafruit 16-Channel 12-bit PWM/Servo Driver (controlled by Arduino via I2C)
+- Ultrasonic distance senors -> for distance measuring
+- LEDs -> WS2812B Addressable RGB LED Strip with 32 LEDs used for esthetic as well as debugging purposes
+    Center LEDs (14 to 17) used to indicate battery level
+    Left and right LEDs (0-9 and 22-31) used to indicate if obstacle detected on left or right side (display in pink)
+        Left and right LEDs also used to indicate other modes (turquoise for unloading, yellow for pressing button, 
+            red for maneuver due to too high Maxon motor current, blue for maneuver if get stuck too long in a corner)
 
-  #Features :
+  # Features :
   - Maxon motor speed control
   - Maxon motor sensor data reading 
         Speed data for odometry -> if robot keeps detecting an obstacle in the same position, will make maneuver (turn randomly left or right by approx 180 deg)
