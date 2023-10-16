@@ -1,6 +1,10 @@
 # Robot-Comp
 Code used for low level processing for the Inderdisciplinary Robot Competion
 
+Video of the robot [here](https://www.youtube.com/watch?v=vqCzc3zlJ8U)
+
+Robot Competition Report [here](https://drive.google.com/file/d/1sISDkwHlUgYIt9PJVt_OxYXLAwWDXRC6/view)
+
 # Main Components
 - Arduino -> low level processing unit
 - Raspberry Pi -> high level processing unit
