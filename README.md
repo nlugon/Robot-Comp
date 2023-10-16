@@ -1,7 +1,7 @@
 # Robot-Comp
 Code used for low level processing for the Inderdisciplinary Robot Competion
 
-Main Components :
+#Main Components :
     - Arduino -> low level processing unit
     - Raspberry Pi -> high level processing unit
     - Maxon motors -> high precision motors for differential drive locomotion 
@@ -15,7 +15,7 @@ Main Components :
             Left and right LEDs also used to indicate other modes (turquoise for unloading, yellow for pressing button, 
                 red for maneuver due to too high Maxon motor current, blue for maneuver if get stuck too long in a corner)
 
-  Features :
+  #Features :
   - Maxon motor speed control
   - Maxon motor sensor data reading 
         Speed data for odometry -> if robot keeps detecting an obstacle in the same position, will make maneuver (turn randomly left or right by approx 180 deg)
