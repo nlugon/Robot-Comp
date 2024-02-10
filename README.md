@@ -5,6 +5,10 @@ Video of the robot [here (youtube)](https://www.youtube.com/watch?v=vqCzc3zlJ8U)
 
 Robot Competition Report [here](https://drive.google.com/file/d/1sISDkwHlUgYIt9PJVt_OxYXLAwWDXRC6/view)
 
+
+![leroboteny](https://github.com/nlugon/Robot-Comp/assets/112929907/da167349-9591-4af0-8201-b0f38015a03d)
+
+
 # Main Components
 - Arduino -> low level processing unit
 - Raspberry Pi -> high level processing unit
