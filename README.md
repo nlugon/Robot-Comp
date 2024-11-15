@@ -9,7 +9,13 @@ Robot Competition Report [here](https://drive.google.com/file/d/1sISDkwHlUgYIt9P
 ![leroboteny](https://github.com/nlugon/Robot-Comp/assets/112929907/da167349-9591-4af0-8201-b0f38015a03d)
 
 
-# Main Components
+## Authors
+- [Noah Lugon](https://github.com/nlugon)
+- [Clarence Linden](https://gitlab.epfl.ch/linden)
+- [Adrien Chevallier](https://gitlab.epfl.ch/achevall)
+
+
+# Electrical Components
 - Arduino -> low level processing unit
 - Raspberry Pi -> high level processing unit
 - Maxon motors -> high precision motors for differential drive locomotion 
@@ -50,9 +56,3 @@ Raspberry pi requests data : "d"
 Polulu motor command : "D1" to turn off, "D0" to turn on (default) (D for Debug)
     Note : if D0 sent but the polulus are not connected to the power source, there will be very high delayes due to the pulseIn() function awaiting motor encoder data (timeout set to 250ms)
 
-
-WARNING ultrasonic sensor sometimes ouptut a value of 0 even when no obstacle is detected
-(solution : ignore 0 values, works very well in practice)
-
-WARNING When running the full code, the data sent from the Arduino to the Rasbperry Pi caused unexpected crashes of the main program on the Raspbery Pi.
-  As we were unable to resolve this issue, no Serial data is sent to the Rasbperry Pi from the Arduino (no Serial.print())

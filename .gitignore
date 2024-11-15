@@ -1,0 +1,23 @@
+/Pieces impression 3D
+/Other
+
+/Année précedentes
+
+**/Old/**
+**/5000 Duplos.blend
+
+*.blend1
+*.jpg
+*.jpeg
+*.png
+*.xml
+
+*.pyc
+
+*yolo*
+
+!**/image.png
+
+/__pycache__/
+
+
