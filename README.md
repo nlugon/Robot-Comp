@@ -1,12 +1,14 @@
-# Robot-Comp
-Code used for low level processing for the Inderdisciplinary Robot Competion
+# Interdisciplinary Robot Competition
+
+
+![leroboteny](https://github.com/nlugon/Robot-Comp/assets/112929907/da167349-9591-4af0-8201-b0f38015a03d)
+
+
+Competition website [here](https://robot-competition.epfl.ch) 
 
 Video of the robot [here (youtube)](https://www.youtube.com/watch?v=vqCzc3zlJ8U)
 
 Robot Competition Report [here](https://drive.google.com/file/d/1sISDkwHlUgYIt9PJVt_OxYXLAwWDXRC6/view)
-
-
-![leroboteny](https://github.com/nlugon/Robot-Comp/assets/112929907/da167349-9591-4af0-8201-b0f38015a03d)
 
 
 ## Authors
@@ -15,7 +17,7 @@ Robot Competition Report [here](https://drive.google.com/file/d/1sISDkwHlUgYIt9P
 - [Adrien Chevallier](https://gitlab.epfl.ch/achevall)
 
 
-# Electrical Components
+## Electrical Components
 - Arduino -> low level processing unit
 - Raspberry Pi -> high level processing unit
 - Maxon motors -> high precision motors for differential drive locomotion 
@@ -29,7 +31,7 @@ Robot Competition Report [here](https://drive.google.com/file/d/1sISDkwHlUgYIt9P
         Left and right LEDs also used to indicate other modes (turquoise for unloading, yellow for pressing button, 
             red for maneuver due to too high Maxon motor current, blue for maneuver if get stuck too long in a corner)
 
-# Features
+## Features
 - Maxon motor speed control
 - Maxon motor sensor data reading 
     Speed data for odometry -> if robot keeps detecting an obstacle in the same position, will make maneuver (turn randomly left or right by approx 180 deg)
